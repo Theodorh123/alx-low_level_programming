@@ -2,20 +2,20 @@
 
 /**
   * _abs - Computes the absolute value of an integer.
-  * @x: The number to be computed.
+  * @c: The number to be computed.
   *
   * Return: Absolute value of number or zero
   */
-int _abs(int x)
+int _abs(int c)
 {
-	if (x < 0)
+	if (c < 0)
 	{
 		int abs_val;
 
-		abs_val = x * -1;
+		abs_val = c * -1;
 
 		return (abs_val);
 	}
 
-	return (x);
+	return (c);
 }
