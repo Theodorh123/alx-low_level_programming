@@ -9,6 +9,7 @@
 int numchecker(char *s)
 {
 	int i;
+
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] < '0' || s[i] > '9')
@@ -27,6 +28,7 @@ int main(int argc, char *argv[])
 {
 	int change, coins;
 	char *input = argv[1];
+
 	change = coins = 0;
 	if (argc != 2)
 	{
